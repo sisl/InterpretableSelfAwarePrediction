@@ -8,6 +8,8 @@ The NuScenes trajectory prediction dataset has to be downloaded from: https://ww
 
 The PostNet code should be cloned from: https://github.com/sharpenb/Posterior-Network and placed at the top-level.
 
+This code was developed and tested with `Python 3.6.12`.
+
 To replicate the input trajectory speed experiments, please run the following files: 
 
 ``run_isap_agent_speed.sh``
