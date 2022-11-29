@@ -1,8 +1,15 @@
-# InterpretableSelfAwarePrediction
+# Interpretable Self-Aware Prediction (ISAP)
 
-Research project investigating learning epistemic uncertainty for trajectory prediction tasks. Code to be added shortly.
+We propose the use of evidential deep learning to perform one-shot epistemic uncertainty estimation over a low-dimensional, interpretable latent space in a trajectory prediction setting. This code runs the qualitative and quantitative experiments to validate the proposed Interpretable Self-Aware Prediction (ISAP) framework. 
 
-This code runs the qualitative and quantitative experiments to validate the proposed Interpretable Self-Aware Prediction (ISAP) framework. The required dependencies are listed in `dependencies.txt`.
+See our [paper](https://arxiv.org/abs/2211.08701) for more details:
+
+M. Itkina and M. J. Kochenderfer. "Interpretable Self-Aware Neural Networks for Robust Trajectory Prediction". In Conference on Robot Learning (CoRL), 2022. 
+
+
+## Instructions
+
+The required dependencies are listed in `dependencies.txt`.
 
 The NuScenes trajectory prediction dataset has to be downloaded from: https://www.nuscenes.org/nuscenes#download and placed into the `data/nuscenes/` folder, including a `covernet_traj_set` containing the trajectory sets, `maps` directory, and `v1.0-trainval` data. The NuScenes github repository: https://github.com/nutonomy/nuscenes-devkit should be cloned and the `nuscenes-devkit` folder to be placed at the top-level.
 
