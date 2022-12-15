@@ -6,6 +6,13 @@ See our [paper](https://arxiv.org/abs/2211.08701) for more details:
 
 M. Itkina and M. J. Kochenderfer. "Interpretable Self-Aware Neural Networks for Robust Trajectory Prediction". In Conference on Robot Learning (CoRL), 2022. 
 
+<p align="center">
+<figure>
+<img src="https://user-images.githubusercontent.com/24766091/207967821-429d7b98-a3b3-4ff4-9ebf-f0280649d001.gif" width="500"> <img src="https://user-images.githubusercontent.com/24766091/207967836-6f6ad463-90ff-4a17-9aa3-ccb3f89211c6.gif" width="500" alt="OOD">
+<figcaption>Optional title</figcaption>
+</figure>
+</p>
+Qualitative results for our ISAP framework on in-distribution (ID) and out-of-distribution (OOD) examples for the input trajectory experiment. We see that the ID example (left) has a slower moving agent of interest (red history boxes closer together) than the OOD example. Thus, ISAP learns the epistemic uncertainty in the agent behavior latent variable to be higher (α0,agent is lower) for the OOD case than the ID case. 
 
 ## Instructions
 
